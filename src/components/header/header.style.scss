@@ -1,0 +1,22 @@
+.header {
+    height: 15vh;
+    padding: 1rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid grey;
+
+    &__msg {
+        width: 70%;
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+    }  
+
+
+    &__logo {
+        width: 10rem;     
+        object-fit: contain;
+    }
+}
