@@ -1,0 +1,2 @@
+*,:after,:before{box-sizing:inherit}html{font-size:62.5%}body{box-sizing:border-box;padding:1rem}.header{height:15vh;padding:1rem;background-color:red;display:flex;align-items:center;font-size:1.4rem;border-bottom:1px solid grey}.header__msg{width:70%;background-color:brown;display:flex;flex-direction:column}.header__logo{width:10rem;object-fit:contain}.content{height:75%;background-color:green}.footer{height:10%;background-color:#00f}.container{display:flex;height:100vh;flex-direction:column}
+/*# sourceMappingURL=main.2b62a812.chunk.css.map */
