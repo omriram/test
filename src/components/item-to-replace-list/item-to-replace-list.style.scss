@@ -1,4 +1,12 @@
 .content {
     height: 75%;
-    background-color: green;
+    padding: 0 1rem;
+    overflow: auto;
+    @media screen and (min-width: 650px) {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+      
+      }
+
 }

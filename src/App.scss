@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  height: 98vh;
+  flex-direction: column;
+ 
+}
+
+.btn {
+ 
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+

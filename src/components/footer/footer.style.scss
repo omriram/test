@@ -1,4 +1,17 @@
 .footer {
     height: 10%;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    margin-top: 1rem;
+
+    &__submit {
+        background-color: transparent;
+        font-size: 2rem;
+        padding: 1rem;
+        background-color: rgb(31, 182, 31);
+        border-radius: 10px;
+        color: white;
+    }
 }

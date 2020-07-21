@@ -1,0 +1,42 @@
+.chosen-item-frame {
+    display: flex;
+    flex-direction: column;
+    &__image {
+        object-fit: contain;
+    }
+    &__arrow {
+        display: flex;
+        font-size: 1.4rem;
+        background-color: brown;
+        align-self: center;
+        padding: .4rem;
+        border-radius: 10px;
+        color: white;
+        //margin: 0 -3rem;
+           
+    }
+
+    &__close-btn {
+       margin-left: -.8rem;
+       align-self: flex-start;
+       font-size: 2rem;
+       
+        background-color: transparent;
+
+    }
+
+    &__image-frame {
+        display: flex;
+        justify-content: center;
+        height: 11rem;
+        
+    }
+    &__box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey;
+}

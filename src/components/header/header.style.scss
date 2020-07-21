@@ -1,15 +1,15 @@
 .header {
     height: 15vh;
     padding: 1rem;
-    background-color: red;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     border-bottom: 1px solid grey;
 
     &__msg {
         width: 70%;
-        background-color: brown;
+       align-self: stretch;
         display: flex;
         flex-direction: column;
     }  
@@ -18,5 +18,8 @@
     &__logo {
         width: 10rem;     
         object-fit: contain;
+        @media screen and (max-width: 290px) {
+            width: 8rem;
+         }
     }
 }
